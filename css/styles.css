@@ -319,7 +319,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
  .hero-section {
     background-color: var(--navy-blue);
     padding: 188px 0;
-    text-align: center;
     background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)), url(../images/hero/hero-mob1x.jpg);
@@ -328,6 +327,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
+    text-align: center;
  }
  @media (min-resolution: 192dpi) {
      .hero-section {
